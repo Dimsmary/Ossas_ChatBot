@@ -1,0 +1,5 @@
+{
+"post_url":"http://127.0.0.1:5700/send_group_msg", 
+"at_id":"[CQ:at,qq=YourQQ]",
+"host_port": 7777
+}
