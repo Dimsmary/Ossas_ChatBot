@@ -1,6 +1,15 @@
 ![cover](other_file/cover.jpg)
 
-[TOC]
+目录
+
+- [OSSAS ChatBot](#ossas-chatbot)
+- [**使用方法**](#--------)
+  * [配置文件介绍](#------)
+  * [QQRecord2Excel](#qqrecord2excel)
+  * [OSSAS](#ossas)
+  * [CoolQ](#coolq)
+- [代码介绍](#----)
+- [更新记录](#----)
 
 # OSSAS ChatBot
 
