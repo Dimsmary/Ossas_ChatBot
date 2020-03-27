@@ -23,7 +23,11 @@
 
 # **使用方法**
 
-​	下载：	
+​	下载：
+
+[	GitHub release](https://github.com/Dimsmary/Ossas_ChatBot/releases)
+
+[	百度云](https://pan.baidu.com/s/15L42YZ4UYFIujVF2HOrBog)  提取码：6zq6
 
 ​	在下载后，你可以看到两个程序：**Ossas.exe**和**QQRecord2Excel.exe**
 
