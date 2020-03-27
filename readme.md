@@ -1,4 +1,4 @@
-![cover](other_file\cover.jpg)
+![cover](other_file/cover.jpg)
 
 [TOC]
 
@@ -10,7 +10,7 @@
 
 ​	模型采用Encoder-Decoder结构，Encoder采用BiLSTM，Decoder采用LSTM。并且加入了Attention机制。这是它的模型图（使用Netron生成）：
 
-![s2s](other_file\s2s.png)
+![s2s](other_file/s2s.png)
 
 # **使用方法**
 
