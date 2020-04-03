@@ -10,6 +10,7 @@
   * [CoolQ](#coolq)
   * [保存模型](#保存模型)
 - [代码介绍](#代码介绍)
+-   * [程序简图](#程序简图)
 - [更新记录](#更新记录)
 
 # OSSAS ChatBot
@@ -227,8 +228,10 @@ CQHTTP下载地址：https://cqhttp.cc/
 
 ***QQRecord2TXT.py***: 进行聊天记录转换的程序。
 
+## 程序简图
 
+![OSSAS_work_flow](/other_file/OSSAS_work_flow.png)
 
 # 更新记录
 
-2020/03/27 Alpha0.1版本发布啦
+2020/03/27 Alpha0.0.1版本发布啦
