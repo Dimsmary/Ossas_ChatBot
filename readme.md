@@ -303,10 +303,10 @@ CQHTTP下载地址：https://cqhttp.cc/
 
 # 更新记录
 
-2020/04/03 更新Alpha0.0.2:
+**2020/04/03 更新Alpha0.0.2:**
 
-OSSAS：增加了BILSTM/LSTM的unit数量。
+​		OSSAS：增加了BILSTM/LSTM的unit数量。
 
-QQRecore2Excel: 新增了模式4和模式5
+​		QQRecore2Excel: 新增了模式4和模式5
 
-2020/03/27 Alpha0.0.1版本发布啦
+**2020/03/27 Alpha0.0.1版本发布啦**
