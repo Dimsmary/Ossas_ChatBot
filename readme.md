@@ -3,14 +3,16 @@
 目录
 
 - [OSSAS ChatBot](#ossas-chatbot)
-- [使用方法](#使用方法)
+- [**使用方法**](#使用方法)
   * [配置文件介绍](#配置文件介绍)
   * [QQRecord2Excel](#qqrecord2excel)
+    + [基本功能](#基本功能)
+    + [拓展功能](#拓展功能)
   * [OSSAS](#ossas)
   * [CoolQ](#coolq)
   * [保存模型](#保存模型)
 - [代码介绍](#代码介绍)
--   * [程序简图](#程序简图)
+  * [程序简图](#程序简图)
 - [更新记录](#更新记录)
 
 # OSSAS ChatBot
@@ -25,11 +27,21 @@
 
 # **使用方法**
 
-​	下载：
+​	**可能需要安装的依赖：**
+
+​	在运行前需要安装：VC++
+
+​	地址：https://support.microsoft.com/zh-cn/help/2977003/the-latest-supported-visual-c-downloads
+
+​	**机器人下载地址：**
 
 [	GitHub release](https://github.com/Dimsmary/Ossas_ChatBot/releases)
 
 [	百度云](https://pan.baidu.com/s/15L42YZ4UYFIujVF2HOrBog)  提取码：6zq6
+
+​	软件在Windows10测试可用。
+
+
 
 ​	在下载后，你可以看到两个程序：**Ossas.exe**和**QQRecord2Excel.exe**
 
@@ -60,6 +72,8 @@
 ​	***split.txt*** ：这个参数用于**QQRecord2Excel.exe**，用于识别不同人发出的消息。编辑格式遵循json。
 
 ## QQRecord2Excel
+
+### 基本功能
 
 ​	如果你想纯手动编辑训练数据，可以跳过这一步。
 
@@ -124,6 +138,52 @@
 最后使用模式3，将**sort_record.xlsx**转化为训练数据：**train.xlsx**
 
 至此训练数据的预处理完成。
+
+### 拓展功能
+
+在0.0.2alpha的更新中，为了更好处理不同的数据，添加了以下两个模式：
+
+
+
+**1）将TAB分隔的数据转换为OSSAS可读的数据**
+
+在此模式下，软件将会读取workspace下的**tab_split.txt**并转换为tab_split.xlsx
+
+tab_split.txt的文本应看起来是这样：
+
+```
+你今天吃了吗？	我吃了
+...
+```
+
+原始数据：
+
+```
+你今天吃了吗？\t我吃了\n
+...
+```
+
+
+
+**2）将带标签的TAB分隔的数据转换为OSSSAS可读的数据**
+
+在此模式下，软件将会读取workspace下的**sign_tab_split.txt**并转换为sign_tab_split.xlsx
+
+tab_split.txt的文本应看起来是这样：
+
+```
+0	你今天吃了吗？	我吃了
+...
+```
+
+原始数据：
+
+```
+0\t你今天吃了吗？\t我吃了\n
+...
+```
+
+需要注意，对于多轮对话将会去重。即不会有多个相同问题。
 
 ## OSSAS
 
@@ -233,5 +293,11 @@ CQHTTP下载地址：https://cqhttp.cc/
 ![OSSAS_work_flow](/other_file/OSSAS_work_flow.png)
 
 # 更新记录
+
+2020/04/03 更新Alpha0.0.2:
+
+OSSAS：增加了BILSTM/LSTM的unit数量。
+
+QQRecore2Excel: 新增了模式4和模式5
 
 2020/03/27 Alpha0.0.1版本发布啦

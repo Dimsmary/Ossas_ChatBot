@@ -9,7 +9,6 @@ from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.layers import Input, LSTM, Dense,\
     Embedding, Bidirectional, Concatenate, Flatten, RepeatVector, Lambda,\
     Activation, Permute, Multiply
-from tensorflow.keras import backend as K
 from tensorflow.keras.models import Model, load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
@@ -52,7 +51,7 @@ class DataInitialize():
     def jieba_cut(self, sequences):
         cut = []
         for text in sequences:
-            split = jieba.cut(text)
+            split = jieba.cut(str(text))
             single_split = []
             for i in split:
                 single_split.append(i)
@@ -97,7 +96,7 @@ def setup_model():
     # 包括了EOS SOS的长度
     vocabulary_size = len(emb_dict) + 3
     embedding_dim = int(pow(vocabulary_size, 1.0 / 4))
-    latent_dim = embedding_dim * 10
+    latent_dim = embedding_dim * 40
 
     print(time.asctime() + ' 词典长度为：' + str(len(emb_dict)))
     print(time.asctime() + ' 拓展后长度为：' + str(vocabulary_size))
@@ -156,7 +155,7 @@ def predict_model():
     # 包括了EOS SOS的长度
     vocabulary_size = len(emb_dict) + 3
     embedding_dim = int(pow(vocabulary_size, 1.0 / 4))
-    latent_dim = embedding_dim * 10
+    latent_dim = embedding_dim * 40
 
     model = load_model(model_path)
 
