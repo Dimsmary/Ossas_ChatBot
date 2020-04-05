@@ -303,6 +303,10 @@ CQHTTP下载地址：https://cqhttp.cc/
 
 # 更新记录
 
+**2020/04/05 更新Alpha0.0.3:**
+
+​		修复了OSSAS分词文件丢失的致命问题
+
 **2020/04/03 更新Alpha0.0.2:**
 
 ​		OSSAS：增加了BILSTM/LSTM的unit数量。

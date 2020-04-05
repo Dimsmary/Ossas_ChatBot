@@ -105,7 +105,7 @@ mode = '0'
 # 模式1：将txt文本读取为excel
 # 模式2：将excel中标记的元素提取
 # 模式3：将对话转换
-print('Version: 0.0.2 Alpha')
+print('Version: 0.0.3 Alpha')
 print('模式1：将原始QQ导出的数据转换为excel表格')
 print('模式2：将标记好的excel表格进行筛选')
 print('模式3：将筛选后的表格转换为训练数据')

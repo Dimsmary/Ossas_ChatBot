@@ -86,7 +86,7 @@ def input_process(id):
 print("------------------------")
 print("---OSSAS ChatBot-----")
 print("--人工智障聊天机器人---")
-print("---版本：0.0.2_alpha---")
+print("---版本：0.0.3_alpha---")
 print("-------------------------")
 print("作者：Dimsmary")
 print("网址：dimsmary.tech")
