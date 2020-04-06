@@ -237,6 +237,10 @@ Epoch 1/10
 
 如果对机器人不满意，可以进入模式2继续训练。
 
+<font color=red>注意，模型在生成完成后，不再依赖原始的训练数据 **train.xlsx** </font>
+
+<font color=red>在对train.xlsx进行修改后，若想要应用修改，则需要重新生成模型（重新运行模式1）和重新训练。</font>
+
 ## CoolQ
 
 如果想让机器人参与QQ群聊，我们需要用到CoolQ插件。
