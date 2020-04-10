@@ -114,7 +114,7 @@
 
 ​	将你导出的聊天记录重命名为**record.txt**并放在workspace文件夹内，然后启动**QQRecord2Excel.exe**进入模式1，程序将会把你的**record.txt转化为record.xlsx**。
 
-<span style="color:orange;">	因为程序按照（**时间戳行-发言行-空行**）这样一种格式循环读取，所以每位发言人的发言只能为一行，超过一行的发言请手动删减。并且第一行应为时间戳行。</span>
+![#f03c15](https://placehold.it/15/f03c15/000000?text=+) 因为程序按照（**时间戳行-发言行-空行**）这样一种格式循环读取，所以每位发言人的发言只能为一行，超过一行的发言请手动删减。并且第一行应为时间戳行。
 
 
 
@@ -237,9 +237,9 @@ Epoch 1/10
 
 如果对机器人不满意，可以进入模式2继续训练。
 
-<span style="color:orange;">注意，模型在生成完成后，不再依赖原始的训练数据 **train.xlsx** </span>
+![#f03c15](https://placehold.it/15/f03c15/000000?text=+)注意，模型在生成完成后，不再依赖原始的训练数据 **train.xlsx** 
 
-<span style="color:orange;">在对train.xlsx进行修改后，若想要应用修改，则需要重新生成模型（重新运行模式1）和重新训练。</span>
+![#f03c15](https://placehold.it/15/f03c15/000000?text=+)在对train.xlsx进行修改后，若想要应用修改，则需要重新生成模型（重新运行模式1）和重新训练。
 
 ## CoolQ
 
