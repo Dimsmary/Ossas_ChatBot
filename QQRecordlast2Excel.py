@@ -19,8 +19,8 @@ def line_reader(df):
         data = file.readline()
         # 跳过空行读取
         file.readline()
-        # 读取QQ号
-        d_tail = label[-10: -1]
+        # 读取QQ号（当时间戳位于qq号后方时采用此py）
+        d_tail = label[-20: -11]
 
         tail_str = ''
         for key_ in key_list:
