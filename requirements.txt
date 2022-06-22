@@ -2,5 +2,5 @@ tensorflow == 2.1.0
 pandas == 1.0.3
 xlrd == 1.2.0
 jieba == 0.42.1
-numpy == 1.18.2
+numpy == 1.22.0
 xlsxwriter == 1.2.8
