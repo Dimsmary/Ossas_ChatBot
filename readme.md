@@ -20,7 +20,7 @@
 
 ​	嗨，这是一个基于Keras搭建的单轮中文聊天机器人！
 
-​	这是我学习机器学习两个月的结果，所以或多或少会有不足。
+​	我优化了代码，提高性能，还有规范化。
 
 ​	模型采用Encoder-Decoder结构，Encoder采用BiLSTM，Decoder采用LSTM。并且加入了Attention机制。这是它的模型图（使用Netron生成）：
 

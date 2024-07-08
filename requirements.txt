@@ -1,4 +1,5 @@
-tensorflow == 2.1.0
+tqdm
+tensorflow == 2.2.0
 pandas == 1.0.3
 xlrd == 1.2.0
 jieba == 0.42.1
